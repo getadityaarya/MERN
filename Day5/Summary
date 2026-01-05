@@ -1,1 +1,17 @@
+This project is a simple Counter Application created using HTML and JavaScript. The main aim of this project is to help students understand how JavaScript works with the web page using DOM manipulation and events.
 
+In this app, the counter value can be increased, decreased, and reset using buttons. The program ensures that the counter value never goes below zero, which helps students learn how to apply conditional statements in real situations. A reset button is used to bring the counter back to zero.
+
+The counter value changes color when it becomes greater than 10. This feature is added to show how JavaScript can dynamically change the appearance of elements using CSS classes.
+
+Through this project, students learn important concepts such as:
+
+1. Using variables to store data
+
+2. Handling button click events
+
+3. Updating content on the webpage
+
+4. Writing clean and reusable functions
+
+This project is useful for beginners to practice basic JavaScript concepts in a simple and practical way.
