@@ -1,1 +1,13 @@
+1. Polymorphism allows the same method to behave differently for different objects using method overriding.
 
+2. Method Overriding occurs when a child class provides its own implementation of a parent class method.
+
+3. A Constructor is a special method that runs automatically when an object is created and is used to initialize values.
+
+4. The this keyword refers to the current object and is used to access its properties and methods.
+
+5. Encapsulation protects data by making variables private and allowing access only through public methods.
+
+6. Abstraction hides internal implementation details and shows only essential functionality to the user.
+
+7. Using OOP concepts makes JavaScript code structured, reusable, secure, and easy to maintain.
