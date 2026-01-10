@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch Users</title>
+</head>
+<body>
+
+<!-- Task 10: Create a button that fetches data when clicked using async/await -->
+<button onclick="getData()">Fetch Users</button>
+
+<ul id="userList"></ul>
+
+<script>
+async function getData() {
+  try {
+    console.log("Loading...");
+
+    let response = await fetch("https://dummyjson.com/users");
+    let data = await response.json();
+
+    console.log("Data Loaded");
+    console.log(data);
+
+    let list = document.getElementById("userList");
+    list.innerHTML = "";
+
+    data.users.forEach(user => {
+      let li = document.createElement("li");
+      li.textContent = user.firstName + " " + user.lastName;
+      list.appendChild(li);
+    });
+
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+</script>
+
+</body>
+</html>
